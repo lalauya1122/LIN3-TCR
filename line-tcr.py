@@ -1354,6 +1354,8 @@ def bot(op):
 			ki.sendText(msg.to, "Check Sider Sudah On")
                         kk.sendText(msg.to, "Check Sider Sudah On")
 			kc.sendText(msg.to, "Check Sider Sudah On")
+		else:
+                    pass
 #-----------------------------------------------
 
 #-----------------------------------------------
