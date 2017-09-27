@@ -1321,7 +1321,7 @@ def bot(op):
                 else:
                     cl.sendText(msg.to,"Please turn on the name clock")
 
-            elif msg.text == "Check":
+            elif msg.text in ["Check"]:
                     sendMessage(msg.to, "Check Sider : On")
                     try:
                         del wait['readPoint'][msg.to]
@@ -1333,7 +1333,7 @@ def bot(op):
                     wait['setTime'][msg.to] = datetime.datetime.today().strftime('%Y-%m-%d %H:%M:%S')
                     wait['ROM'][msg.to] = {}
                     print wait
-            elif msg.text == "Point":
+            elif msg.text in ["Point"]:
                     if msg.to in wait['readPoint']:
                         if wait["ROM"][msg.to].items() == []:
                             chiya = ""
