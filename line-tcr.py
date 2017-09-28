@@ -1418,8 +1418,8 @@ def bot(op):
          #-------------Fungsi Jam Update Finish-------------------#
 
             elif msg.text in ["Check"]:
-                    ki.sendText(msg.to, "Check sider")
-                    kk.sendText(msg.to, "Check sider")
+                    ki.sendText(msg.to, "Set Sider on")
+                    kk.sendText(msg.to, "Set Sider on")
                     try:
                         del wait2['readPoint'][msg.to]
                         del wait2['readMember'][msg.to]
@@ -1441,7 +1441,7 @@ def bot(op):
 
                         kk.sendText(msg.to, "======Tercyduck====== %s\n=====Tukang Ngintip======\n%s\nCheck Time dan Date:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
-                        kk.sendText(msg.to, "Check Sider On ♪")
+                        kk.sendText(msg.to, "Set Sudah Sider On ♪")
 #-----------------------------------------------
 
 #-----------------------------------------------
